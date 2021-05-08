@@ -17,7 +17,7 @@ console.log('hiihih')
 async function sendMail(mail){
 
 
-let res1 = await fetch('http://localhost:3000/message',{
+let res1 = await fetch('https://prasannavenkatesh-portfolio.herokuapp.com//message',{
     method:"post",
     body:mail
 })
