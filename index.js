@@ -21,7 +21,9 @@ let res1 = await fetch('https://prasannavenkatesh-portfolio.herokuapp.com/messag
     method:"post",
     body:mail
 })
-console.log(res1);
+let res2 = await res1.json
+console.log(res2);
+    return res2
 }
 
 
