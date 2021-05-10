@@ -1284,5 +1284,15 @@ textarea {
 
 .form-control{
   font-family: 'Inconsolata', monospace;
+  color: #212529;
 }
 
+
+.form-control:focus,
+.form-control:active
+{
+  font-family: 'Inconsolata', monospace;
+  color: #212529;
+  border-color: #12c2c2;
+  box-shadow: 0 0 0 0.2rem #269292;
+}
