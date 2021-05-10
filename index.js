@@ -28,7 +28,7 @@ form.addEventListener('submit',function(e){
 
 const sendMail = (mail) => {
     //1.
-    fetch("https://prasannavenkatesh-porfolio.herokuapp.com//message", {
+    fetch("https://prasannavenkatesh-porfolio.herokuapp.com/message", {
       method: "post", //2.
       body: mail, //3.
   
