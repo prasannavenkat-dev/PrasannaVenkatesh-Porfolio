@@ -16,7 +16,7 @@ form.addEventListener('submit',function(e){
 async function sendMail(mail){
 
 
-let res1 = await fetch('http://localhost:5000/message',{
+let res1 = await fetch('https://prasannavenkatesh-porfolio.herokuapp.com/message',{
     method:"post",
     body:mail
 })
