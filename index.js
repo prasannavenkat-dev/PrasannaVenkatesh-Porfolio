@@ -24,7 +24,10 @@ console.log(res1)
 // let res2 = await res1.json()
 // console.log(res2);
     if(res1.status===200){
-    alert('Email subitted')
+     location.replace("https://prasannavenkatesh.netlify.app/#success")
+    }
+    else{
+    location.replace("https://prasannavenkatesh.netlify.app/#failure")
     }
 }
 
